@@ -15,3 +15,13 @@ Sample input and output 2:
 60000
 354000.00
 '''
+
+X = int(input()) 
+Y = int(input())  
+num_senior_players = 6
+num_junior_players = 5
+contribution_senior = num_senior_players * (X * 0.5)
+contribution_junior = num_junior_players * (Y * 0.4)
+total_contribution = contribution_senior + contribution_junior
+print(f"{total_contribution:.2f
+
