@@ -16,3 +16,10 @@ Sample input and output 2:
 30
 40
 '''
+total_age = int(input())
+age_XY = (total_age - 10) // 2
+age_Z = age_XY + 10
+print(age_XY)
+print(age_XY)
+print(age_Z)
+
