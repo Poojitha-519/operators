@@ -21,3 +21,10 @@ Sample Input 3
 Sample Output 3
 212.0
 '''
+
+def celsius_to_fahrenheit():
+    celsius = int(input())
+     fahrenheit = (celsius * 9/5) + 32
+     print(f"{fahrenheit:.1f}")
+celsius_to_fahrenheit()
+
